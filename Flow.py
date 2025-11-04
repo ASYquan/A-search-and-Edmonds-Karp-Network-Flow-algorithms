@@ -115,13 +115,6 @@ class Flow:
                 graph[i] = list(map(int, f.readline().strip().split()))
         return graph
     
-    def test_flow_case1():
-        graph = read_graph_from_file("/mnt/e/IN3130/IN3110_oblig2/oblig2/src/test/resources/assignment/testcase1.txt")
-        print(graph)
-        flow_solver = Flow(graph)
-        max_flow = flow_solver.solve()
-        assert max_flow == 24
-        assert flow_solver.get_cut() == [0, 2]
-    test_flow_case1()"""
+"""
    
          
